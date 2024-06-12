@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE report PUBLIC "-//JACOCO//DTD Report 1.1//EN" "report.dtd">
+<report name="spring-boot-hello-world">
+	<sessioninfo id="LT0167661-9ce3572e" start="1718181302247" dump="1718181337558"/>
+	<package name="com/testing">
+		<class name="com/testing/HelloWorldApplication" sourcefilename="HelloWorldApplication.java">
+			<method name="&lt;init&gt;" desc="()V" line="7">
+				<counter type="INSTRUCTION" missed="0" covered="3"/>
+				<counter type="LINE" missed="0" covered="1"/>
+				<counter type="COMPLEXITY" missed="0" covered="1"/>
+				<counter type="METHOD" missed="0" covered="1"/>
+			</method>
+			<method name="main" desc="([Ljava/lang/String;)V" line="10">
+				<counter type="INSTRUCTION" missed="5" covered="0"/>
+				<counter type="LINE" missed="2" covered="0"/>
+				<counter type="COMPLEXITY" missed="1" covered="0"/>
+				<counter type="METHOD" missed="1" covered="0"/>
+			</method>
+			<counter type="INSTRUCTION" missed="5" covered="3"/>
+			<counter type="LINE" missed="2" covered="1"/>
+			<counter type="COMPLEXITY" missed="1" covered="1"/>
+			<counter type="METHOD" missed="1" covered="1"/>
+			<counter type="CLASS" missed="0" covered="1"/>
+		</class>
+		<class name="com/testing/HelloWorldController" sourcefilename="HelloWorldController.java">
+			<method name="&lt;init&gt;" desc="()V" line="22">
+				<counter type="INSTRUCTION" missed="0" covered="3"/>
+				<counter type="LINE" missed="0" covered="1"/>
+				<counter type="COMPLEXITY" missed="0" covered="1"/>
+				<counter type="METHOD" missed="0" covered="1"/>
+			</method>
+			<method name="helloWorld" desc="()Ljava/util/Map;" line="32">
+				<counter type="INSTRUCTION" missed="0" covered="3"/>
+				<counter type="LINE" missed="0" covered="1"/>
+				<counter type="COMPLEXITY" missed="0" covered="1"/>
+				<counter type="METHOD" missed="0" covered="1"/>
+			</method>
+			<method name="getResponse" desc="()Ljava/util/Map;" line="36">
+				<counter type="INSTRUCTION" missed="0" covered="31"/>
+				<counter type="LINE" missed="0" covered="8"/>
+				<counter type="COMPLEXITY" missed="0" covered="1"/>
+				<counter type="METHOD" missed="0" covered="1"/>
+			</method>
+			<method name="&lt;clinit&gt;" desc="()V" line="24">
+				<counter type="INSTRUCTION" missed="0" covered="5"/>
+				<counter type="LINE" missed="0" covered="1"/>
+				<counter type="COMPLEXITY" missed="0" covered="1"/>
+				<counter type="METHOD" missed="0" covered="1"/>
+			</method>
+			<counter type="INSTRUCTION" missed="0" covered="42"/>
+			<counter type="LINE" missed="0" covered="11"/>
+			<counter type="COMPLEXITY" missed="0" covered="4"/>
+			<counter type="METHOD" missed="0" covered="4"/>
+			<counter type="CLASS" missed="0" covered="1"/>
+		</class>
+		<sourcefile name="HelloWorldApplication.java">
+			<line nr="7" mi="0" ci="3" mb="0" cb="0"/>
+			<line nr="10" mi="4" ci="0" mb="0" cb="0"/>
+			<line nr="11" mi="1" ci="0" mb="0" cb="0"/>
+			<counter type="INSTRUCTION" missed="5" covered="3"/>
+			<counter type="LINE" missed="2" covered="1"/>
+			<counter type="COMPLEXITY" missed="1" covered="1"/>
+			<counter type="METHOD" missed="1" covered="1"/>
+			<counter type="CLASS" missed="0" covered="1"/>
+		</sourcefile>
+		<sourcefile name="HelloWorldController.java">
+			<line nr="22" mi="0" ci="3" mb="0" cb="0"/>
+			<line nr="24" mi="0" ci="5" mb="0" cb="0"/>
+			<line nr="32" mi="0" ci="3" mb="0" cb="0"/>
+			<line nr="36" mi="0" ci="3" mb="0" cb="0"/>
+			<line nr="37" mi="0" ci="3" mb="0" cb="0"/>
+			<line nr="38" mi="0" ci="4" mb="0" cb="0"/>
+			<line nr="39" mi="0" ci="5" mb="0" cb="0"/>
+			<line nr="40" mi="0" ci="5" mb="0" cb="0"/>
+			<line nr="41" mi="0" ci="5" mb="0" cb="0"/>
+			<line nr="42" mi="0" ci="4" mb="0" cb="0"/>
+			<line nr="43" mi="0" ci="2" mb="0" cb="0"/>
+			<counter type="INSTRUCTION" missed="0" covered="42"/>
+			<counter type="LINE" missed="0" covered="11"/>
+			<counter type="COMPLEXITY" missed="0" covered="4"/>
+			<counter type="METHOD" missed="0" covered="4"/>
+			<counter type="CLASS" missed="0" covered="1"/>
+		</sourcefile>
+		<counter type="INSTRUCTION" missed="5" covered="45"/>
+		<counter type="LINE" missed="2" covered="12"/>
+		<counter type="COMPLEXITY" missed="1" covered="5"/>
+		<counter type="METHOD" missed="1" covered="5"/>
+		<counter type="CLASS" missed="0" covered="2"/>
+	</package>
+	<counter type="INSTRUCTION" missed="5" covered="45"/>
+	<counter type="LINE" missed="2" covered="12"/>
+	<counter type="COMPLEXITY" missed="1" covered="5"/>
+	<counter type="METHOD" missed="1" covered="5"/>
+	<counter type="CLASS" missed="0" covered="2"/>
+</report>
